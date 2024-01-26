@@ -6,10 +6,10 @@ class Person {
 	}
 
 	get gname(){
-		return this.name.toUpperCase();
+		return this.name;
 	}
 	get gage(){
-		return this.age.toUpperCase();
+		return this.age;
 	}
 	set sname(name){
 		this.name=name.toUpperCase();
