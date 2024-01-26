@@ -12,10 +12,10 @@ class Person {
 		return this.age;
 	}
 	set sname(name){
-		this.name=name.toUpperCase();
+		this.name=name;
 	}
 	set sage(age){
-		this.age=age.toUpperCase();
+		this.age=age;
 	}
 }
 
