@@ -8,14 +8,9 @@ class Person {
 	get gname(){
 		return this.name;
 	}
-	get gage(){
-		return this.age;
-	}
-	set sname(name){
-		this.name=name;
-	}
-	set sage(age){
-		this.age=age;
+	 
+	set setage(age1){
+		this.age=age1;
 	}
 }
 
