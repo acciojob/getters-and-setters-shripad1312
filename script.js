@@ -10,7 +10,7 @@ class Person {
 	}
 	 
 	set setage(age1){
-		this.age=age1;
+		this.age=age1+1;
 	}
 }
 
