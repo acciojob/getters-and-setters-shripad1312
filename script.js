@@ -6,16 +6,16 @@ class Person {
 	}
 
 	get name(){
-		return this.name;
+		return this.name.toUpperCase();
 	}
 	get age(){
-		return this.age
+		return this.age.toUpperCase();
 	}
 	set name(name){
-		this.name=name;
+		this.name=name.toUpperCase();
 	}
 	set age(age){
-		this.age=age;
+		this.age=age.toUpperCase();
 	}
 }
 
