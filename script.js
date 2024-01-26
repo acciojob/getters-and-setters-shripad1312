@@ -5,36 +5,36 @@ class Person {
 		this.age=age;
 	}
 
-	get name(){
+	get gname(){
 		return this.name.toUpperCase();
 	}
-	get age(){
+	get gage(){
 		return this.age.toUpperCase();
 	}
-	set name(name){
+	set sname(name){
 		this.name=name.toUpperCase();
 	}
-	set age(age){
+	set sage(age){
 		this.age=age.toUpperCase();
 	}
 }
 
 class Student extends Person {
 	Student(name,age){
-		super(name,age);
+		Person(name,age);
 	}
 	study(){
-		console.log(`${super.name} is studying `);
+		console.log(`${Person.gname} is studying `);
 	}
 }
 
 class Teacher extends Person {
 	Teacher(name,age){
-		super(name,age);
+		Person(name,age);
 	}
 
 	teach(){
-		console.log(`${super.name} is teaching `);
+		console.log(`${Person.gname} is teaching `);
 	}
 }
 
